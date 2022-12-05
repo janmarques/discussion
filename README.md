@@ -7,7 +7,7 @@ When working with SpeechRecognition and SpeechSynthesis, it is important that yo
 
 This package helps keep this in check. 
 
-It will continually by SpeechRecognizing and passing those results to the `onRecognitionResult` callback.
+It will continually be SpeechRecognizing and passing those results to the `onRecognitionResult` callback.
 
 But whenever you want to Synthesise something, you can do this using the `synthesize` method. The Recognition gets disabled and after the synthesis is done, it gets restarted.
 
@@ -31,6 +31,9 @@ Example:
 
     // in the initializer (eg ngOnInit or whenever your page is loaded)
      this.discussion.initialize();
+
+     // after user consent, enable the Recognition
+     this.discussion.enableRecognition();
 
 
     // anywhere in your code

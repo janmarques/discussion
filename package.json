@@ -1,6 +1,6 @@
 {
   "name": "discussion",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Basic implementating to help altering between ongoing SpeechRecognition and intermittant SpeechSynthesis",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
